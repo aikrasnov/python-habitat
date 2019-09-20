@@ -17,17 +17,17 @@ pkg_include_dirs=(include)
 pkg_interpreters=(bin/python bin/python3 bin/python3.7)
 
 pkg_deps=(
-  core/bzip2
-  core/expat
-  core/gcc-libs
-  core/gdbm
-  core/glibc
-  core/libffi
-  core/ncurses
-  core/openssl
-  core/readline
-  core/sqlite
-  core/zlib
+    core/bzip2/1.0.6/20180608091727
+    core/expat/2.2.5/20180608094017
+    core/gcc-libs/7.3.0/20180608091701
+    core/gdbm/1.14.1/20180608094002
+    core/glibc/2.27/20180608041157
+    core/libffi/3.2.1/20180608141245
+    core/ncurses/6.1/20180608091810
+    core/openssl/1.0.2n/20180608102213
+    core/readline/7.0.3/20180608092900
+    core/sqlite/3130000/20180608141313
+    core/zlib/1.2.11/20180608050617
 )
 
 pkg_build_deps=(
